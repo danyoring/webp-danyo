@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    background-color: #c9e2f1; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#poster {
+    width: 1200px;
+    height: 800px; 
+    position: relative; 
+    overflow: hidden;
+    background-image: url('background.png');
+    background-size: cover;
+    background-position: center;
+}
+#main-flower {
+    position: absolute;
+    top: 290px;
+    left: 355px;
+    width: 450px;
+    z-index: 10; 
+    cursor: pointer; 
+}
+
+.petal {
+    position: absolute;
+    display: none; 
+    
+    top: 470px;
+    left: 600px;
+    
+    width: 60px; 
+    height: 60px; 
+    z-index: 20; 
+}
