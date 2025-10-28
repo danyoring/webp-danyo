@@ -32,7 +32,7 @@ body {
   width: 2000px;
   opacity: 0;
   z-index: 26; 
-  animation: fade-in-floor 15s ease-in-out 3s forwards; 
+  animation: fade-in-floor 15s ease-in-out 15s forwards; 
 }
 #poster {
   width: 100%;
