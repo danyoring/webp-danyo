@@ -18,9 +18,6 @@ $(document).ready(function () {
   function runScatter(petalObject) {
     var $petal = $(petalObject);
 
-    //여기서 클래스를 제거하게 되면서 스타일 값이 기본값으로 변화 -> 애니메이션이 첫 상태로 복귀하는 동작을 만듦
-    //아마 애니메이션 재시작 안정화때문에 들어간 코드로 보임
-    // $petal.removeClass(allAnimClasses);
     var randomClass =
       scatterClasses[Math.floor(Math.random() * scatterClasses.length)];
 
