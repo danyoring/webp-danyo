@@ -2,7 +2,7 @@ body {
   margin: 0;
   background-color: #c9e2f1;
   background-image: url("bg.png");
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-attachment: fixed;
 }
