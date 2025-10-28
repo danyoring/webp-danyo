@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>중간고사</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  </head>
+  <body>
+    <div id="poster">
+      <img src="flower.png" id="main-flower" alt="메인 꽃" />
+      <img src="extraflower.png" id="extra-flower" alt="추가 꽃" />
+      <img src="extraflower 2.png" id="extra-flower2" alt="추가 꽃2" />
+      <img src="extraflower 3.png" id="extra-flower3" alt="추가 꽃3" />
+      <img src="extraflower 4.png" id="extra-flower4" alt="추가 꽃4" />
+      <img src="floor.png" id="floor" alt="바닥 꽃" />
+      <img src="text1.png" id="t1" alt="글씨 1" />
+      <img src="text2.png" id="t2" alt="글씨 2" />
+
+      <div id="petal-container"></div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
